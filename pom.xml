@@ -7,11 +7,32 @@
     <groupId>pl.coderslab</groupId>
     <artifactId>java-spring-homework</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
     <properties>
-        <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <spring.framework.version>5.1.9.RELEASE</spring.framework.version>
     </properties>
+
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+
 
     </dependencies>
+
+
+
 </project>

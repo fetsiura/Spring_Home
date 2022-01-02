@@ -25,7 +25,6 @@ public class Main06 {
 
             check(workers).entrySet().stream()
             .sorted(Map.Entry.comparingByValue())
-                    .limit(3)
             .forEach(System.out::println);
 
 
