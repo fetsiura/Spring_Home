@@ -1,4 +1,4 @@
-package pl.coderslab.homeDay3;
+package pl.coderslab.homeDay3.model;
 
 
 import lombok.AllArgsConstructor;

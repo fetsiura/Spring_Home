@@ -2,7 +2,7 @@ package pl.coderslab.homeDay3.Config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import pl.coderslab.homeDay3.SimpleCustomerLogger;
+import pl.coderslab.homeDay3.service.SimpleCustomerLogger;
 
 public class SpringDiApplication {
 

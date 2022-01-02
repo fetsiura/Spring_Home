@@ -1,6 +1,5 @@
-package pl.coderslab.homeDay3;
+package pl.coderslab.homeDay3.service;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class SimpleCustomerLogger implements CustomerLogger{
